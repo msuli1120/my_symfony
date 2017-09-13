@@ -13,9 +13,19 @@
 		public function buildForm(FormBuilderInterface $builder, array $options)
 		{
 			$builder
-				->add( 'from', EmailType::class)
-				->add( 'message', TextareaType::class)
-				->add( 'send', SubmitType::class)
+				->add( 'from', EmailType::class, [
+					'label' => 'Email Address'
+				])
+				->add( 'message', TextareaType::class, [
+					'attr' => [
+						'rows' => 5
+					]
+				])
+				->add( 'send', SubmitType::class, [
+					'attr' => [
+						'class' => 'btn btn-lg btn-success btn-block'
+					]
+				])
 			;
 		}
 	}

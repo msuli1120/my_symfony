@@ -21,22 +21,5 @@
     <schema id="15" parent="1" name="sys"/>
     <schema id="16" parent="1" name="vue_db"/>
     <schema id="17" parent="1" name="wp_dev"/>
-    <table id="18" parent="2" name="reddit_posts"/>
-    <column id="19" parent="18" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="20" parent="18" name="title">
-      <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="21" parent="18" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>
