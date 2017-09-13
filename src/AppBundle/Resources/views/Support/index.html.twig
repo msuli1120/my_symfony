@@ -1,0 +1,18 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+  <div class="container">
+    <h1>Form Page</h1>
+    {% include('@App/Support/flash-messages.html.twig') %}
+    {{ form(my_form) }}
+  </div>
+
+{% endblock %}
+
+{% block stylesheets %}
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+{% endblock %}
