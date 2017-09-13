@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f2a0a6-3ca3-4b2e-b5cd-116454ae7ff1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/security/login.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d971276a-3594-43f0-a264-9d8829a5a0c2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d971276a-3594-43f0-a264-9d8829a5a0c2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Form/Type/ContactFormType.php" afterPath="$PROJECT_DIR$/src/AppBundle/Form/Type/ContactFormType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Support/index.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Support/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -454,12 +446,20 @@
       <workItem from="1505211839842" duration="5970000" />
       <workItem from="1505278380078" duration="2096000" />
       <workItem from="1505280493598" duration="5232000" />
-      <workItem from="1505286640827" duration="7026000" />
+      <workItem from="1505286640827" duration="7073000" />
     </task>
+    <task id="LOCAL-00001" summary="add login form">
+      <created>1505294064399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505294064399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25402000" />
+    <option name="totallyTimeSpent" value="25449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -510,6 +510,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
