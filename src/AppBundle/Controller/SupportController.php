@@ -29,6 +29,7 @@
 		 * @Route("/form-submission", name="handle_form_submission")
 		 * @Method("POST")
 		 * @return mixed
+		 * @throws \LogicException
 		 */
 		public function handleFormSubmissionAction(Request $request)
 		{
