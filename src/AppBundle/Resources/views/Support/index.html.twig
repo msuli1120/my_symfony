@@ -4,6 +4,9 @@
   <div class="container">
     <h1>Form Page</h1>
     {% include('@App/Support/flash-messages.html.twig') %}
+    {% if app.user %}
+      <a href="{{ logout_path('main') }}">Logout</a>
+    {% endif %}
     {{ form(my_form) }}
   </div>
 

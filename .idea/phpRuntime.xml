@@ -38,7 +38,6 @@
       <extension name="memcache" enabled="false" />
       <extension name="memcached" enabled="false" />
       <extension name="meta" enabled="false" />
-      <extension name="mime_magic" enabled="false" />
       <extension name="ming" enabled="false" />
       <extension name="mongo" enabled="false" />
       <extension name="mongodb" enabled="false" />
